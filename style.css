@@ -1,0 +1,142 @@
+*{
+    margin: 0 0 0 0;
+}
+#header {
+    width: 1440px;  
+    height: 475px;
+    background-color: #303030;
+}
+#titulo-principal{
+    padding: 206px 354px 20px 0;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+}
+#subtitulo-principal{
+    width: auto;
+    height: 35px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 149px;
+   
+}
+#subtitulo-principal, #titulo-principal{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    font-feature-settings: 'liga' off;
+    margin-left: 62px;
+}
+#menuInformacional{
+    width:  1368px;
+    height: 229px;
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-left: 72px;
+}
+#menuInformacional h1, p{
+    width: 292px;
+    height: 45px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    color: #000000;
+    margin-left: 99px;
+}
+#menuInformacional h1{
+    margin-top: 96px;
+    font-size: 35px;
+}
+#menuInformacional p{
+    margin-left: 99px;
+    font-size: 18px;
+}
+#menuQuemSomos{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    width: 1440px;
+}
+#tituloQuemSomos, #descricaoQuemSomos{
+    width: 100%;
+    margin-left: 77px;
+    margin-right: 64px;
+}
+#tituloQuemSomos{
+    font-size: 35px;
+    margin-top: 304px;
+}
+#textoQuemSomos{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 314px;
+    align-items: center;
+}
+#imagemQuemSomos{
+    width: 510px;
+    height: 605px;
+   
+    margin: 82px 54px 92px 0px;
+}
+#sessaoFormulario{
+    width: 1440px;
+    height: 638px;
+    background-color: #303030;
+    text-align: center;
+}
+#tituloFormulario{
+    font-size: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    color: white;
+    padding-top: 87px;
+    margin-bottom: 48px;
+}
+form input{
+    width: 466px;
+    height: 42px;
+    border-radius: 10px;
+    background: #ffffff;
+    font-family: "Raleway";
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.3);
+    padding: 19px 0 23px 30px;
+    border: 0;
+}
+#inputNome{
+    margin-bottom: 62px;
+}
+#inputEmail{
+    margin-bottom: 88px;
+}
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    font-size: 30px;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    line-height: 30px;
+    font-family: "Raleway";
+    font-weight: 700;
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #e09c48;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0px 10px 15px #9454077c;
+    transition-duration: 0.5s;
+}
